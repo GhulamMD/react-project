@@ -11,6 +11,44 @@ function App() {
 
 
         <h2>My data is uploaded</h2>
+        <h1>Indian Names Table</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Aarav</td>
+                <td>28</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Vivaan</td>
+                <td>32</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Vihaan</td>
+                <td>24</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Aadhya</td>
+                <td>29</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Isha</td>
+                <td>31</td>
+            </tr>
+        </tbody>
+    </table>
+        
     </>
   )
 }
