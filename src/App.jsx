@@ -11,6 +11,8 @@ function App() {
 
 
         <h2>My data is uploaded</h2>
+
+        <div>
         <h1>Indian Names Table</h1>
     <table>
         <thead>
@@ -47,7 +49,7 @@ function App() {
                 <td>31</td>
             </tr>
         </tbody>
-    </table>
+    </table></div>
         
     </>
   )
