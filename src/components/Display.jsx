@@ -3,7 +3,11 @@ import styles from './Display.module.css'
 
 const Display = () => {
 
-  return <h1 className={styles.Display}>  Display Results </h1>
+  return <div className={styles.Display}>
+    
+<input type="text" placeholder="Enter your number here" />
+    
+    </div>
 }
 
 export default Display;

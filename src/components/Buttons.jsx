@@ -1,10 +1,33 @@
-import styles from './Buttons.module.css'
+import styles from "./Buttons.module.css";
 
+const ButtonsContainer = () => {
+  const buttonNames = [
+    "C",
+    "1",
+    "2",
+    "+",
+    "3",
+    "4",
+    "-",
+    "5",
+    "6",
+    "*",
+    "7",
+    "8",
+    "/",
+    "=",
+    "9",
+    "0",
+    ".",
+  ];
 
-const Buttons = () => {
+  return (
+    <div className={styles.buttonsContainer}>
+      {buttonNames.map((buttonName) => (
+        <button key= {buttonName} className={styles.button}>{buttonName}</button>
+      ))}
+    </div>
+  );
+};
 
-  return <h1 className={styles.Buttons}>
-    Buttons  </h1>
-}
-
-export default Buttons;
+export default ButtonsContainer;
